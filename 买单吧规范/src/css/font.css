@@ -1,0 +1,71 @@
+html {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    html {  font-size:16px  }
+}
+@media screen and (min-width: 321px) and (max-width:350px) {
+    html {  font-size:17.5px  }
+}
+@media screen and (min-width: 351px) and (max-width:400px) {
+    html {  font-size:20px  }
+}
+@media only screen and (min-width: 400px) and (max-width:450px) {
+    html {  font-size:22.5px  }
+}
+@media only screen and (min-width: 451px) and (max-width:500px) {
+    html {  font-size:25px  }
+}
+@media only screen and (min-width: 501px) and (max-width:600px) {
+    html {  font-size:30px  }
+}
+@media only screen and (min-width: 601px) and (max-width:700px) {
+    html {  font-size:35px  }
+}
+@media only screen and (min-width: 701px) and (max-width:800px) {
+    html {  font-size:40px  }
+}
+@media only screen and (min-width: 801px) and (max-width:900px) {
+    html {  font-size:45px  }
+}
+@media only screen and (min-width: 900px) {
+    html {  font-size:50px  }
+}
+
+.font-9 {
+    font-size: 0.45rem;
+}
+.font-10 {
+    font-size: .5rem;
+}
+.font-11 {
+    font-size: .55rem;
+}
+.font-13 {
+    font-size: .65rem;
+}
+.font-15 {
+    font-size: .75rem;
+}
+.font-16 {
+    font-size: .8rem;
+}
+.font-18 {
+    font-size: .9rem;
+}
+.font-21{
+     font-size: 1.05rem;
+ }
+.font-30 {
+    font-size: 1.5rem;
+}
+.font-32 {
+    font-size: 1.6rem;
+}
+.font-36 {
+    font-size: 1.8rem;
+}
+.font-40 {
+    font-size: 2rem;
+}
