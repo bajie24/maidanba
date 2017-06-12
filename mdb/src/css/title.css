@@ -1,0 +1,17 @@
+.title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: .75rem;
+    color: #222;
+    line-height: 2rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.title > .more {
+    color: #2072cf;
+    padding-right: .5rem;
+}

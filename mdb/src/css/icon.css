@@ -1,0 +1,39 @@
+.icon {
+    position: relative;
+}
+.icon:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: .75rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.icon-name:before {
+    background-image: none;
+}
+
+
+.title.icon:before {
+    width: .9rem;
+    height: .9rem;
+}
+.title.icon {
+    padding-left: 1.9rem;
+}
+.title > .more.icon:before {
+    left: unset;
+    right: 0;
+    width: .25rem;
+    height: .4rem;
+    background-image: url("../icon/right-arrow.png");
+}
+
+
+.icon-text {
+    
+}
