@@ -4,8 +4,11 @@
     color: #2072cf;
 }
 .m-button.disabled {
-    background: #ccc;
-    color: #fff;
+    background: #f2f2f2;
+    color: #ccc;
+}
+.m-button:not(.disabled):active {
+    color: #125ca9;
 }
 .m-button-corner {
     border-radius: 10rem;
@@ -14,15 +17,21 @@
     background-color: #ff2244;
     color: #fff;
 }
-.m-red-button:active {
+.m-button.m-red-button:active {
     background-color: #ea0c2e;
+    color: #fff;
 }
 .m-blue-button {
     background-color: #2072cf;
     color: #fff;
 }
-.m-blue-button:active {
+.m-button.m-blue-button:active {
     background-color: #125ca9;
+    color: #fff;
+}
+.m-button.m-blue-button.disabled,.m-button.m-red-button.disabled {
+    background: #ccc;
+    color: #fff;
 }
 
 
