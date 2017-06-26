@@ -69,3 +69,8 @@ html {
 .font-40 {
     font-size: 2rem;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}

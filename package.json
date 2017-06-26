@@ -1,0 +1,25 @@
+{
+  "name": "maidanba",
+  "version": "1.0.0",
+  "description": "github入门开源项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajie24/maidanba.git"
+  },
+  "author": "grissom doll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bajie24/maidanba/issues"
+  },
+  "homepage": "https://github.com/bajie24/maidanba#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "uglify": "^0.1.5"
+  }
+}
