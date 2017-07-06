@@ -4,7 +4,7 @@
     color: #2072cf;
 }
 .m-button.disabled {
-    background: #f2f2f2;
+    background: #fff;
     color: #ccc;
 }
 .m-button:not(.disabled):active {
@@ -21,6 +21,14 @@
     background-color: #ea0c2e;
     color: #fff;
 }
+.m-orange-button {
+    background-color: #ff9320;
+    color: #fff;
+}
+.m-button.m-orange-button:active {
+    background-color: #f38111;
+    color: #fff;
+}
 .m-blue-button {
     background-color: #2072cf;
     color: #fff;
@@ -29,9 +37,12 @@
     background-color: #125ca9;
     color: #fff;
 }
-.m-button.m-blue-button.disabled,.m-button.m-red-button.disabled {
+.m-button.m-blue-button.disabled,.m-button.m-red-button.disabled,.m-button.m-orange-button.disabled  {
     background: #ccc;
     color: #fff;
+}
+.m-button-border {
+    border: 1px solid #2072cf;
 }
 
 
