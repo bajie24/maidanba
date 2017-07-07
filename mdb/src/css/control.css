@@ -1,0 +1,61 @@
+.icon.right-arrow {
+    padding-right: .5rem;
+    color: #2072cf;
+}
+.icon.right-arrow:before {
+    width: .25rem;
+    height: .4rem;
+    right: 0;
+    /*background-image: url("../icon/right-arrow.png");*/
+}
+
+.checkbox-label {
+    width: .7rem;
+    height: .7rem;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 1rem;
+}
+.checkbox-label input{
+    display: none;
+}
+.checkbox-label label {
+    background-color: white;
+    width: .45rem;
+    height: .45rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.checkbox-label input:checked + label {
+    background-color: #2072cf;
+    border-radius: 1rem;
+}
+
+.change-num div {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.change-num input {
+    width: 3.25rem;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.change-num .minus {
+    /*background-image: url("../icon/minus.png");*/
+}
+.change-num .minus.disabled {
+    /*background-image: url("../icon/minus2.png");*/
+}
+.change-num .plus {
+    /*background-image: url("../icon/plus.png");*/
+}
+
+
+
